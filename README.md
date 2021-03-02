@@ -2,8 +2,6 @@
 This project build using [Spring Boot WEB](https://spring.io/guides/gs/spring-boot/).
 
 ## Main concepts:
-The idea is to septate business logic pages inside the Components folder.
-
 - Using H2 memory DB to store the data.
 - Using Spring Boot Data JPA to access the db data.
 - Using `Pageable` interface for pagination and filter the data
