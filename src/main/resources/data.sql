@@ -1,0 +1,1 @@
+INSERT INTO REVIEW(Id, ProductId, UserId, ProfileName, HelpfulnessNumerator, HelpfulnessDenominator, Score, Time, Summary, Text) select * FROM CSVREAD('src/main/resources/Reviews.csv');
